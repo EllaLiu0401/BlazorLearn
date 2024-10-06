@@ -1,0 +1,78 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.tlog
+*.v12.suo
+*.ncrunchsolution
+*.ncrunchproject
+*.pidb
+*.svclog
+*.scc
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+.scaffolding
+
+# Npm Packages
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Rider
+.idea/
+
+# MacOS Specific
+.DS_Store
+*.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code for Blazor WASM debugging
+.vscode/launch.json
+
+# JetBrains Rider
+.idea/
+.idea/*
+.idea/.idea_modules.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/xq-console/
+.idea/.rider_tools_version
+
