@@ -1,5 +1,15 @@
 @page "/learnBlazor/bindprop"
 
-<h3>BindProp</h3>
+<h3>Product - One Way Data Binding</h3>
 
-@code {}
+Name : @Product.Name <br/>
+IsActive; @Product.IsActive
+
+@code {
+  Models.Product Product = new() {
+    Id = 1,
+    Name = "Product 1",
+    IsActive = true
+  };
+
+}
