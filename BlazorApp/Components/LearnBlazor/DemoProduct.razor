@@ -23,7 +23,8 @@
     }
   </div>
   <div class="row pt-4">
-    <input type="button" class="btn btn-success" style="width: 100px" value="Counter" @onclick="IncrementCount" />
+    <input type="button" class="btn btn-success" style="width: 100px" value="Counter"
+      @onclick="()=>IncrementCount(5)" />
     <br />
     Counter: @Count
   </div>
@@ -65,8 +66,8 @@ new Product_Prop {Id = 3,Key = "Color",Value = "White"}
       });
   }
 
-  private void IncrementCount()
+  private void IncrementCount(int counter)
   {
-    Count++;
+    Count += counter;
   }
 }
