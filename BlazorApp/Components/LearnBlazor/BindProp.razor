@@ -6,6 +6,8 @@
 Name : @Product.Name <br/>
 IsActive: @Product.IsActive <br/>
 Price: @Product.Price <br/>
+This Product is: @(Product.IsActive ? "Active" : "InActive")<br/>
+IsActive : <input type="checkbox" @bind="@Product.IsActive"/> 
 Input Price: <input type="number" @bind="@Product.Price" @bind:event="oninput"/>
 
 @code {
@@ -14,6 +16,6 @@ Input Price: <input type="number" @bind="@Product.Price" @bind:event="oninput"/>
         Name = "Product 1",
         IsActive = true,
         Price = 5
-    };
 
+    };
 }
