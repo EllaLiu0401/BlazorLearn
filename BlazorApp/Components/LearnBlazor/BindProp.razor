@@ -59,6 +59,13 @@
         }
       </tbody>
     </table>
+    <br />
+    <br />
+    <h3>Product Summary</h3>
+    @foreach (var prod in ProductList)
+    {
+      <p>@prod.Name [@prod.Price] is @(prod.IsActive ? "Active" : "InActive")</p>
+    }
   </div>
 </div>
 
@@ -86,7 +93,7 @@ new Product_Prop{Id=3, Key="Flavor", Value="Rose"}
         Id = 1,
         Name = "Midnight Blaze",
         IsActive = false,
-        Price = 1,
+        Price = 4.99,
         ProductProperties = new List<Product_Prop>()
 {
 new Product_Prop { Id = 1, Key = "Flavor", Value = "Rose"},
@@ -100,7 +107,7 @@ new Product_Prop { Id = 3, Key = "Color", Value="Purple" }
         Id = 2,
         Name = "Blossom Lily",
         IsActive = true,
-        Price = 2,
+        Price = 10.59,
         ProductProperties = new List<Product_Prop>()
 {
 new Product_Prop { Id = 1, Key = "Flavor", Value = "Lily" },
