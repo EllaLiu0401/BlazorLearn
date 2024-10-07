@@ -1,37 +1,51 @@
 @page "/learnBlazor/bindprop"
 @rendermode InteractiveServer
 
-<h3>Product - One Way Data Binding</h3>
+<div class="row">
+  <div class="col-6 border p-3">
+    <h3 class="text-primary">Product Playground</h3>
+    <hr />
+    IsActive : <input type="checkbox" @bind="@Product.IsActive" /> <br />
+    Input Price: <input type="number" @bind="@Product.Price" @bind:event="oninput" /> <br />
+    <br />Product Properties
+    <select @bind="selectedProp">
+      @foreach (var prop in Product.ProductProperties)
+      {
+        <option value="@prop.Key">@prop.Key</option>
+      }
+    </select> <br />
+  </div>
+  <div class="col-6 border p-3">
+    <h3 class="text-primary">Product Summary</h3>
+    <hr />
+    Name : @Product.Name <br />
+    IsActive: @Product.IsActive <br />
+    Price: @Product.Price <br />
+    This Product is: @(Product.IsActive ? "Active" : "InActive")<br />
 
-Name : @Product.Name <br/>
-IsActive: @Product.IsActive <br/>
-Price: @Product.Price <br/>
-This Product is: @(Product.IsActive ? "Active" : "InActive")<br/>
-IsActive : <input type="checkbox" @bind="@Product.IsActive"/>  <br/>
-Input Price: <input type="number" @bind="@Product.Price" @bind:event="oninput"/> <br/>
-<br/>Product Properties
-<select @bind="selectedProp">
-  @foreach(var prop in Product.ProductProperties){
-    <option value="@prop.Key">@prop.Key</option>
-  }
-</select> <br/>
-Selected Prop: @selectedProp
-@if(!string.IsNullOrEmpty(selectedProp)){
-  @* Find the correspond value with given key *@
-  <p>Selected Value: @Product.ProductProperties.FirstOrDefault(u=>u.Key==selectedProp).Value</p>
-}
+    Selected Prop: @selectedProp
+    @if (!string.IsNullOrEmpty(selectedProp))
+    {
+      @* Find the correspond value with given key *@
+      <p>Selected Value: @Product.ProductProperties.FirstOrDefault(u => u.Key == selectedProp).Value</p>
+    }
+
+  </div>
+</div>
+
 
 @code {
-    private string selectedProp = "";
-    Models.Product Product = new() {
-        Id = 1,
-        Name = "Product 1",
-        IsActive = true,
-        Price = 5,
-        ProductProperties = new List<Models.Product_Prop>() {
-          new Models.Product_Prop{Id=1, Key="Color", Value="Red"},
-          new Models.Product_Prop{Id=2, Key="Size", Value="20oz"},
-          new Models.Product_Prop{Id=3, Key="Flavor", Value="Rose"}
-        }
+  private string selectedProp = "";
+  Product Product = new()
+    {
+      Id = 1,
+      Name = "Product 1",
+      IsActive = true,
+      Price = 5,
+      ProductProperties = new List<Models.Product_Prop>() {
+new Product_Prop{Id=1, Key="Color", Value="Red"},
+new Product_Prop{Id=2, Key="Size", Value="20oz"},
+new Product_Prop{Id=3, Key="Flavor", Value="Rose"}
+}
     };
 }
