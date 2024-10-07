@@ -22,28 +22,32 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/LearnBlazor/BindProp.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MZWFybkJsYXpvci9CaW5kUHJvcC5yYXpvcg==
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/LearnBlazor/DemoProduct.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MZWFybkJsYXpvci9EZW1vUHJvZHVjdC5yYXpvcg==
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/BindProp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0JpbmRQcm9wLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/DemoProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0RlbW9Qcm9kdWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/LearnBlazorComponents/_DeleteButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0xlYXJuQmxhem9yQ29tcG9uZW50cy9fRGVsZXRlQnV0dG9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Routes.razor]
