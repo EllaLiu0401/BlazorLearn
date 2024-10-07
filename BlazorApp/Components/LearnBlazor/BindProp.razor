@@ -1,15 +1,19 @@
 @page "/learnBlazor/bindprop"
+@rendermode InteractiveServer
 
 <h3>Product - One Way Data Binding</h3>
 
 Name : @Product.Name <br/>
-IsActive; @Product.IsActive
+IsActive: @Product.IsActive <br/>
+Price: @Product.Price <br/>
+Input Price: <input type="number" @bind="@Product.Price" @bind:event="oninput"/>
 
 @code {
-  Models.Product Product = new() {
-    Id = 1,
-    Name = "Product 1",
-    IsActive = true
-  };
+    Models.Product Product = new() {
+        Id = 1,
+        Name = "Product 1",
+        IsActive = true,
+        Price = 5
+    };
 
 }
