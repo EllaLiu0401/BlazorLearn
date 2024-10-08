@@ -5,13 +5,15 @@
 <p>Favorite Count: @FavoriteCount</p>
 <p>Selected Product: @SelectedProduct</p>
 <div class="p2 mt-2">
-  <div class="row">
-    @foreach (var prod in ProductList)
-    {
-      <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountChange"
-        OnSelectedProductChange="UpdatedSelectedProduct"></_IndividualProduct>
-    }
-  </div>
+  <CascadingValue Value="@ProductList">
+    <div class="row">
+      @foreach (var prod in ProductList)
+      {
+        <_IndividualProduct Product="prod" OnFavoriteUpdated="FavoriteCountChange"
+          OnSelectedProductChange="UpdatedSelectedProduct"></_IndividualProduct>
+      }
+    </div>
+  </CascadingValue>
 </div>
 
 

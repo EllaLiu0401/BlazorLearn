@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/LearnRouting.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5Sb3V0aW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/BindProp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0JpbmRQcm9wLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
