@@ -42,12 +42,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0RlbW9Qcm9kdWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/LearnBlazorComponents/_ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0xlYXJuQmxhem9yQ29tcG9uZW50cy9fQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/LearnBlazorComponents/_DeleteButtonComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0xlYXJuQmxhem9yQ29tcG9uZW50cy9fRGVsZXRlQnV0dG9uQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/LearnBlazorComponents/_IndividualProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL0xlYXJuQmxhem9yQ29tcG9uZW50cy9fSW5kaXZpZHVhbFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Learn_Blazor/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvTGVhcm5fQmxhem9yL1BhcmVudENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Weather.razor]
