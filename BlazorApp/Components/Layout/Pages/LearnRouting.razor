@@ -1,5 +1,5 @@
 @page "/learnRouting"
-@page "/learnrouting/{Param1:int}/{Param2}"
+@* @page "/learnrouting/{Param1:int}/{Param2}" *@
 @page "/learnrouting/catch-all/{*PageParameters}"
 @rendermode InteractiveServer
 
@@ -18,9 +18,9 @@
 <h2 id="targetElement">Main title</h2>
 
 @code {
-  [Parameter]
+  [SupplyParameterFromQuery(Name = "Param1")]
   public int Param1 { get; set; }
-  [Parameter]
+  [SupplyParameterFromQuery]
   public string Param2 { get; set; } = "";
   [Parameter]
   public string PageParameters { get; set; } = "";
@@ -31,5 +31,6 @@
     var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
     Param1 = int.Parse(query["Param1"].ToString());
     Param2 = query["Param2"].ToString();
+    @* _NavigationManager.Refresh(forceReload: true); *@
   }
 }
