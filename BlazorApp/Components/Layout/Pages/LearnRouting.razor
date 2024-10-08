@@ -1,6 +1,10 @@
 @page "/learnRouting"
+@page "/learnrouting/{Param1}"
 
 <h3>Learn Routing</h3>
+<p>Param1: @Param1</p>
 
 @code {
-  }
+  [Parameter]
+  public string Param1 { get; set; } = "";
+}
