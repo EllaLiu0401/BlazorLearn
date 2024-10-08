@@ -1,13 +1,17 @@
 @page "/learnRouting"
-@page "/learnrouting/{Param1}/{Param2}"
+@page "/learnrouting/{Param1:int}/{Param2}"
+@page "/learnrouting/catch-all/{*PageParameters}"
 
 <h3>Learn Routing</h3>
-<p>Param1: @Param1</p>
+<p>Param1(Int): @Param1</p>
 <p>Param2: @Param2</p>
+<p>Page Parameters: @PageParameters</p>
 
 @code {
   [Parameter]
-  public string Param1 { get; set; } = "";
+  public int Param1 { get; set; }
   [Parameter]
   public string Param2 { get; set; } = "";
+  [Parameter]
+  public string PageParameters { get; set; } = "";
 }
