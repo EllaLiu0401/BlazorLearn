@@ -20,8 +20,13 @@
 </div>
 
 <div class="row">
-  <button class="btn btn-success" @onclick="ToastrSuccess">Toastr Success</button>
-  <button class="btn btn-danger" @onclick="ToastrError">Toastr Failure</button>
+  <button class="btn btn-success m-2" style="width:200px" @onclick="ToastrSuccess">Toastr Success</button>
+  <button class="btn btn-danger m-2" style="width:200px" @onclick="ToastrError">Toastr Failure</button>
+</div>
+
+<div class="row">
+  <button class="btn btn-success m-2" style="width:200px" @onclick="SweetAlertSuccess">Sweetalert Success</button>
+  <button class="btn btn-danger m-2" style="width:200px" @onclick="SweetAlertError">Sweetalert Failure</button>
 </div>
 
 @code {
@@ -42,5 +47,15 @@
   {
     //await _JSRuntime.InvokeVoidAsync("showToaster", "error", "Error Notification");
     await _JSRuntime.ToastrError("Error Notification");
+  }
+
+  private async Task SweetAlertSuccess()
+  {
+    await _JSRuntime.InvokeVoidAsync("showSweerAlert", "success", "Sucess Alert");
+  }
+
+  private async Task SweetAlertError()
+  {
+    await _JSRuntime.InvokeVoidAsync("showSweerAlert", "error", "Error Alert");
   }
 }
