@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/BlazorForms.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvQmxhem9yRm9ybXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/liutonghao/Desktop/Ella_Project/Blazor/BlazorApp/Components/Layout/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUGFnZXMvRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
