@@ -21,24 +21,6 @@
         <InputNumber class="form-control" @bind-Value="@Product.Price" />
         <ValidationMessage For="@(()=> Product.Price)" />
       </div>
-      <div class="form-group py-2">
-        Category
-        <InputSelect class="form-select" @bind-Value="@Product.Category">
-          @* get the value of numn Category *@
-          @foreach (var cat in Enum.GetValues(typeof(Category)))
-          {
-            <option value="@cat">@cat</option>
-          }
-        </InputSelect>
-      </div>
-      <div class="form-group py-2">
-        IsActive
-        <InputCheckbox @bind-Value="@Product.IsActive" />
-      </div>
-      <div class="form-group py-2">
-        Avaliable After
-        <InputDate class="form-control" @bind-Value="@Product.AvailableAfter" />
-      </div>
       <button type="submit" class="btn btn-primary my-3" style="width: 200px;">Create Product</button>
       <p class="text-success">@(IsProcessing ? "Processing..." : "")</p>
     </EditForm>
