@@ -5,6 +5,9 @@ namespace BlazorApp.Models
 {
     public class Product
     {
+        public Product(){
+        AvailableAfter = DateOnly.FromDateTime(DateTime.Now);
+        }
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
